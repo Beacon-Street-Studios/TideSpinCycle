@@ -14,5 +14,5 @@ config.voices = [
 config.voiceCount = config.voices.length;
 
 // Order of precedence: image, color, default gray (if undefined)
-config.backgroundColor = '#FFD126';
+config.backgroundColor = '#EB3E0A';
 config.backgroundImage = 'wallpaper.png';
