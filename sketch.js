@@ -91,7 +91,7 @@ function draw() {
 
   noteImgs.forEach( (note) => { note.display(); })
 
-  fill('blue')
+  fill('#013991')
   let barLength = sequenceWidth * (Tone.Transport.seconds / config.duration);
   rect(menuWidth + 8, 1080-20, barLength, 20);
 }
